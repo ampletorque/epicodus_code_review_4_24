@@ -23,10 +23,20 @@ Then run app as follows:
 
 $ ruby app.rb
 
+Running on Heroku:
+------------------
+Type the following URI into your favorite browser:
+
+https://immense-crag-5775.herokuapp.com
+
 License:
 --------
-MIT License. Copyright 2015.
+MIT License. Copyright 2015 Andrew David Burt.
 
 Bugs:
 -----
 None so far.
+
+Notes:
+------
+I did not do a proper job formatting my commit messages to follow the convention "It will...", so will have to do this for next time.
