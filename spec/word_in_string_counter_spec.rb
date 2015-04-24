@@ -16,8 +16,8 @@ describe('String#word_in_string_counter') do
     expect("hello hello there".word_in_string_counter("hello")).to(eq(2))
   end
 
-  # it("returns") do
-  #   expect("hello hello there".word_in_string_counter("there")).to(eq(1))
-  # end
+  it("returns") do
+    expect("hello hello there".word_in_string_counter("there")).to(eq(1))
+  end
 
 end
