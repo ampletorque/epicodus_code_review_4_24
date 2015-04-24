@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
-require('./lib/scrabble')
+require('./lib/word_in_string_counter')
 require('pry')
 
 get('/') do
