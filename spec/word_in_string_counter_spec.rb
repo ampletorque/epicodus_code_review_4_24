@@ -12,4 +12,12 @@ describe('String#word_in_string_counter') do
     expect("Now is the winter of our discontent Made glorious summer by this sun of York; And all the clouds that lour'd upon our house In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths; Our bruised arms hung up for monuments; Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures.".word_in_string_counter("Our")).to(eq(7))
   end
 
+  it("returns") do
+    expect("hello hello there".word_in_string_counter("hello")).to(eq(2))
+  end
+
+  # it("returns") do
+  #   expect("hello hello there".word_in_string_counter("there")).to(eq(1))
+  # end
+
 end
